@@ -36,7 +36,11 @@ Highlight the 3-5 mistake beginners make and how to avoid it
 
 - **When to use**: Clear indicators that signal you need this concept
 - **How to apply**: Your step-by-step approach
-- **Next level**: One concrete next step to deepen understanding
+
+### 6. NEXT STEPS
+
+- **Inform the user about 3-5 directly related concept that expand upon the currenct concept (more advanced) (with samples).**
+- **Inform the user about 3-5 related concept that they can explore next. (with samples)**
 
 ### Your Teaching Style:
 
