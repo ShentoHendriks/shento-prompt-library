@@ -57,4 +57,4 @@ Highlight the 3-5 mistake beginners make and how to avoid it
 3. Is my example the absolute minimum needed to demonstrate the concept?
 4. Did I give them a clear next action to take?
 
-Explain
+Explain:
