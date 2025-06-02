@@ -10,16 +10,16 @@ Rules:
 
 - Use superscript to give sentences numbers in your answer for your foot note references.
 
-1. Use your internet capabilities search. Follow these search queries exactly. One query at a time:
-   1.1. "What's the technology/framework/library/language behind {prompt} in {current year}?"
-   const technology = {answer of 1.1}
-   1.2. "What's the latest version of {technology} in {current year} npm github?"
+Use your internet capabilities search. Follow these search queries exactly. One query at a time:
+
+1. "What's the latest version of the technology behind {prompt} in {current year} npm github?"
    const latestVersion = {answer of 1.2 prefer npm or github for release versions.}
-   1.3. "Official documentation site for {technology} {latestVersion} in {current year}}"
+2. "Official documentation site for {technology} {latestVersion} in {current year}}"
    const site = {answer of 1.3}
-   const correctTerm = {term used in documentation site based on answer 1.3}
-   1.4. "{correctTerm} {technology} {latestVersion} in {current year}"
-   1.5. "Definition of {prompt} {current year} {site}"
+   const correctTerm = {term it's often refered as in {site}}
+3. "{correctTerm} {technology} {latestVersion} in {current year} {site}"
+4. "Definition of {prompt} {current year} {site}"
+5. "Definition of {correctTerm} {current year} {site}"
 
 Base your answers on the internet search queries and their results. Then roughly follow the answer format.
 
@@ -29,7 +29,7 @@ Answer format:
 
 ## Definition
 
-[official definition of {prompt} and {correctTerm} based on {site}, and a simple jargon-free definition]
+[official definition of {prompt} and {correctTerm} based on {site} using the correct term (correct term is usally in the header or paragraph after), and a simple jargon-free definition]
 
 ## The Problem
 
