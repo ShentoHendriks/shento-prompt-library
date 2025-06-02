@@ -12,14 +12,13 @@ Rules:
 
 Use your internet capabilities search. Follow these search queries exactly. One query at a time:
 
-1. "What's the latest version of the technology behind {prompt} in {current year} npm github?"
-   const latestVersion = {answer of 1.2 prefer npm or github for release versions.}
-2. "Official documentation site for {technology} {latestVersion} in {current year}}"
-   const site = {answer of 1.3}
-   const correctTerm = {term it's often refered as in {site}}
-3. "{correctTerm} {technology} {latestVersion} in {current year} {site}"
-4. "Definition of {prompt} {current year} {site}"
-5. "Definition of {correctTerm} {current year} {site}"
+technology = "technology/framework/library/language in {prompt}"; //For example React
+
+1. "Latest version of {technology} {current year + month} npm github?"
+   const latestVersion = {answer of 1}
+2. "{correctTerm} {technology} {latestVersion} in {current year + month} {official docs site}"
+3. "Definition of {prompt} {current year + month} {site official docs site}"
+4. "Definition of {correctTerm} {current year + month} {site official docs site}"
 
 Base your answers on the internet search queries and their results. Then roughly follow the answer format.
 
@@ -29,7 +28,7 @@ Answer format:
 
 ## Definition
 
-[official definition of {prompt} and {correctTerm} based on {site} using the correct term (correct term is usally in the header or paragraph after), and a simple jargon-free definition]
+[official definition of based on {site} using the correct term, and a simple jargon-free definition]
 
 ## The Problem
 
@@ -38,6 +37,7 @@ Answer format:
 ## The solution
 
 [Explanation how this concept solves that problem]
+[Mention other ways to this, but explain why these aren't as effective/modern]
 
 ## Break-down
 
@@ -50,6 +50,10 @@ Answer format:
 ## When do you use this?
 
 [Give indicators that signal you need this concept]
+
+## When not to use this?
+
+[Give indicators that signal you don't this concept and an alternative might be better, explain why that alternative might be better.]
 
 ## How to use this?
 
