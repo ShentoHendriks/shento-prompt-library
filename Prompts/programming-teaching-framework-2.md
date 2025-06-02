@@ -14,7 +14,7 @@ Use your internet capabilities search. Follow these search queries exactly. One 
 
 technology = "technology/framework/library/language in {prompt}"; //For example React
 
-1. "Latest version of {technology} {current year} npm github?"
+1. "Latest version of {technology} {current year}?"
    const latestVersion = {answer of 1}
 2. "{correctTerm} {technology} {latestVersion} in {current year} {official docs site}"
 3. "Definition of {prompt} {current year} {official docs site}"
