@@ -1,11 +1,10 @@
 Your task is to turn mdx code components into things that a chatbot can understand and reuse (Like <AudioPlayer />).
 Use this format and return it into md without any type:
 Name component: `<name component>`
-Purpose: <purpose>
-Usage: <Usage>
-Props: <props>
-
-My component:
+Purpose
+Usage
+Props
+My component
 
 ```jsx
 export default function AudioPlayer({ src }) {
